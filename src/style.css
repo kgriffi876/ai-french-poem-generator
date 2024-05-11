@@ -24,10 +24,21 @@ h1 {
   line-height: 1.5;
 }
 
-form {
+.form-container {
   padding: 30px;
-  display: flex;
   margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+}
+
+.hint {
+  line-height: 1.5;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #f5fafa;
+  opacity: 0.6;
 }
 
 .instructions {
@@ -64,6 +75,11 @@ form {
 
 .poem strong {
   color: #a041bc;
+}
+
+.hidden {
+  display: none;
+  border-left: none;
 }
 
 a {
