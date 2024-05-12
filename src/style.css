@@ -12,16 +12,12 @@ main {
   border-bottom: 1px solid #888;
 }
 
-header {
-  margin-bottom: 30px;
-  color: #f5fafa;
-  text-transform: uppercase;
-}
-
 h1 {
   text-align: center;
   font-size: 36px;
   line-height: 1.5;
+  text-transform: uppercase;
+  color: #f5fafa;
 }
 
 .form-container {
@@ -34,11 +30,10 @@ form {
 }
 
 .hint {
-  line-height: 1.5;
-  margin-top: 5px;
   font-size: 14px;
-  color: #f5fafa;
   opacity: 0.6;
+  margin-top: 5px;
+  color: #f5fafa;
 }
 
 .instructions {
